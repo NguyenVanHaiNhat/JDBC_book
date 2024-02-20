@@ -30,5 +30,4 @@ public class Servlet extends HttpServlet {
         RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
         dispatcher.forward(req,resp);
     }
-
 }
